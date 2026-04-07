@@ -157,7 +157,7 @@ document.getElementById("explain-btn").onclick = async () => {
   const githubToken = prompt("Paste GitHub token");
 
   try {
-    const res = await fetch("http://localhost:3000/explain", {
+    const res = await fetch("https://auth0-ai-explainer-backend.vercel.app/explain", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ repo, githubToken })
