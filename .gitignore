@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+.env.local
+server/.env
+
+# Vite build output
+dist/
+
+# System files
+.DS_Store
